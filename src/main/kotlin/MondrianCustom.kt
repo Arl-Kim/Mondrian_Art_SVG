@@ -78,7 +78,7 @@ class MondrianCustom(private val canvasWidth: Int, private val canvasHeight: Int
      * @return A random color string.
      */
     private fun randomColor(): String {
-        val colors = listOf("red", "blue", "yellow", "green", "orange", "purple", "pink", "gold")
+        val colors = listOf("red", "blue", "yellow", "green", "orange", "purple", "pink", "gold", "black", "white")
         return colors.random()
     }
 
